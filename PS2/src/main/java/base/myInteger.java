@@ -87,13 +87,30 @@ public class myInteger {
 	}
 
 
+	public static boolean isEven(myInteger n) {
+		return isEven(myInteger.getiValue());
+		
+	}
 	
-	//EQUALS
-	boolean equals(int i) {
-		return true; 
+	public static boolean isOdd(myInteger n) {
+		return isOdd(myInteger.getiValue());
+		
+	}
+	
+	public static boolean isPrime(myInteger n) {
+		return isPrime(myInteger.getiValue());
+		
+	}
+	
+	 //EQUALS
+ 	static boolean equals(int i) {
+ 		return true; 
 		
 	}
 
+	public static boolean equals(myInteger n) {
+		return equals(myInteger.getiValue());
+	}
 
 	
 }
